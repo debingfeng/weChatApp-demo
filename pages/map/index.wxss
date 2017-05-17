@@ -1,0 +1,7 @@
+/* pages/map/index.wxss */
+page {
+  height: 100%;
+}
+.map-container {
+  height: 100%;
+}

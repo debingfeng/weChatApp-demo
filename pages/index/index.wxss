@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+.container {
+   margin-top: 25px;
+   padding: 0 15px;
+}
+
+.section-group {
+  position: relative;
+  margin: 15px 0;
+}
+
+.btn-info {
+  background-color: #3498DB;
+}
+
+.btn-green {
+  background-color: #2ECC71;
+}
+.pos-relative {
+  position: relative;
+}
+
+.ico-right {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -12px;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url("http://blog.fengdb.com/public/imgs/arrow-right.png")  no-repeat;
+  background-position: center;
+  background-size: 100%;
+}

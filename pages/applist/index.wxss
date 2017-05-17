@@ -1,0 +1,39 @@
+/* pages/applist/index.wxss */
+body {
+  background-color: gainsboro;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+.flex-group {
+  display: flex;
+  border-bottom: 5px solid gainsboro;
+  border-top: 1px solid gainsboro;
+}
+
+.wrapper view:last-of-type .flex-group  {
+  border-bottom: none;
+}
+
+.group-title {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;   
+}
+.flex-item {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /*background-color: white;*/
+
+}
+
+.flex-item > text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: -25px;
+}

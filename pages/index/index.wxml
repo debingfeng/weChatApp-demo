@@ -1,0 +1,50 @@
+<view class="container">
+ 
+  <view class="section-group ">
+    <navigator url="/pages/applist/index" hover-class="navigator-hover">
+      <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 功能列表 </button>
+    </navigator>
+        <i class="ico-right"></i>
+  </view>
+  <view class="section-group ">
+    <navigator url="/pages/map/index" hover-class="navigator-hover">
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+              disabled="{{disabled}}" bindtap="primary"> 地图定位 </button>
+    </navigator>
+    <i class="ico-right"></i>
+  </view>
+ 
+ <view class="section-group ">
+    <navigator url="/pages/phone/index" hover-class="navigator-hover">
+      <button type="warn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 打电话 </button>
+    </navigator>
+    <i class="ico-right"></i>
+  </view>
+
+  <view class="section-group">
+    <navigator url="/pages/setting/index" hover-class="navigator-hover">
+      <button  class="btn-info" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="primary"> 用户信息设置 </button>
+    </navigator>
+    <i class="ico-right"></i>    
+  </view>
+
+   <view class="section-group">
+    <navigator url="/pages/feedback/index" hover-class="navigator-hover">
+        <button  class="btn-green" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 客服反馈 </button>
+    </navigator>
+    <i class="ico-right"></i>
+  </view>
+<view class="section-group">
+     
+      <button  class="btn-green" bindtap="change"> test事件 </button>
+       
+   
+    <i class="ico-right"></i>
+  </view>
+  {{test}}
+
+</view>

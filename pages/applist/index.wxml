@@ -1,0 +1,68 @@
+<!--pages/applist/index.wxml-->
+<view class="wrapper">
+  <view>
+    <view class="group-title">亲情沟通</view>
+    <view class="flex-group">
+      <view class="flex-item">
+        <i class="icon icon-phone"></i>
+        <text>自动接通</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone1"></i>
+        <text>上课禁用</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone2"></i>
+        <text>上学守护</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone3"></i>
+        <text>通讯录</text>
+      </view>        
+    </view>
+  </view>
+  
+  <view>
+    <view class="group-title">安全守护</view>
+    <view class="flex-group">
+      <view class="flex-item">
+        <i class="icon icon-phone"></i>
+        <text>自动接通</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone1"></i>
+        <text>上课禁用</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone2"></i>
+        <text>上学守护</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone3"></i>
+        <text>通讯录</text>
+      </view>        
+    </view>
+  </view>
+
+  <view>
+    <view class="group-title">手表管理</view>
+    <view class="flex-group" >
+      <view class="flex-item">
+        <i class="icon icon-phone"></i>
+        <text>自动接通</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone1"></i>
+        <text>上课禁用</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone2"></i>
+        <text>上学守护</text>
+      </view>
+      <view class="flex-item">
+        <i class="icon icon-phone3"></i>
+        <text>通讯录</text>
+      </view>        
+    </view>
+  </view>
+</view>

@@ -1,0 +1,69 @@
+/**reset.wxss**/
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+textarea,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal; }
+
+ul {
+    list-style: none; }
+
+button,
+input,
+select,
+textarea {
+    margin: 0; }
+
+html {
+    box-sizing: border-box; 
+    }
+
+div,article,section,nav,header,footer,p,ul,ol,table {
+    box-sizing: inherit; }
+div,article,section,nav,header,footer,p,ul,ol,table:before,
+div,article,section,nav,header,footer,p,ul,ol,table:after {
+    box-sizing: inherit; }
+
+img,
+embed,
+object,
+audio,
+video {
+    height: auto;
+    max-width: 100%; }
+
+iframe {
+    border: 0; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+td,
+th {
+    padding: 0;
+    text-align: left; }

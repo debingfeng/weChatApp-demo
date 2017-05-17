@@ -1,0 +1,7 @@
+/* pages/phone/index.wxss */
+
+.search-input {
+  border: 1px solid gainsboro;
+  padding: 5px;
+  border-radius: 4px;
+}

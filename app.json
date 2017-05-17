@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/applist/index",
+    "pages/map/index",
+    "pages/phone/index",
+    "pages/setting/index",
+    "pages/feedback/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1ABC9C",
+    "navigationBarTitleText": "电话手表App",
+    "navigationBarTextStyle":"#2C3E50"
+  },
+  "debug": false
+}

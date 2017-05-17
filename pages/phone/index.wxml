@@ -1,0 +1,11 @@
+<!--pages/phone/index.wxml-->
+<view>
+  <view class="container">
+    <input type="text" class="search-input" bindinput="filterPhone" placeholder="输入手机号/名字搜索" auto-focus/>
+  </view>
+  <view class="flex-list" wx:for="{{phoneList}}"  wx:key="unique"> 
+    <text class="flex-item">{{item.phone}}</text> <text class="flex-item">{{item.name}}</text>
+    <button type="primary"  size="mini" data-phone="{{item.phone}}"  bindtap="callPhone" > 拨打 </button>
+  </view>
+
+</view>
